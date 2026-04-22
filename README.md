@@ -51,6 +51,7 @@ Si bien el núcleo de este proyecto es abierto para la comunidad, está diseñad
 
 ```bash
 $ yarn install
+$ docker compose up -d
 ```
 
 ## Compile and run the project
@@ -61,6 +62,7 @@ $ yarn run start
 
 # watch mode
 $ yarn run start:dev
+$ http://localhost:3000/api/seed
 
 # production mode
 $ yarn run start:prod
