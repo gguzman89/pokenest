@@ -61,6 +61,7 @@ $ docker compose up -d
 $ yarn run start
 
 # watch mode
+$ renombrar el archivo .env.template a .env
 $ yarn run start:dev
 $ http://localhost:3000/api/seed
 
