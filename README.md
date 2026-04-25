@@ -54,6 +54,16 @@ $ yarn install
 $ docker compose up -d
 ```
 
+## Production Build
+1. Crear el archivo ```.env.prod```
+2. Completar las variables de entorno de prod
+3. Crear la nueva imagen
+```
+docker compose -f docker-compose.prod.yml --env-file .env.prod up --build
+```
+
+
+
 ## Compile and run the project
 
 ```bash

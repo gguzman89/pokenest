@@ -1,0 +1,15 @@
+
+
+
+
+dist/
+node_modules/
+.gitignore
+
+.git/
+
+mongo/
+
+
+
+
